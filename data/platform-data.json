@@ -1,0 +1,301 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "email": "admin@imeer.ai",
+      "password": "Admin123",
+      "role": "admin",
+      "name": "Admin",
+      "avatar": "/placeholder.svg?height=40&width=40",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "inv-1",
+      "email": "investor@imeer.ai",
+      "password": "investor",
+      "role": "investor",
+      "name": "Zain Shah",
+      "avatar": "/placeholder.svg?height=40&width=40",
+      "title": "Senior Investment Manager",
+      "company": "Tech Ventures Capital",
+      "location": "Karachi, Pakistan",
+      "bio": "Experienced investor with 10+ years in tech startups. Focus on early-stage companies with innovative solutions.",
+      "investmentFields": ["Technology", "FinTech", "E-commerce", "AI/ML"],
+      "portfolioCompanies": ["TechCorp", "InnovateLab", "StartupX"],
+      "totalInvestments": 25,
+      "successfulExits": 8,
+      "verified": true,
+      "rating": 4.8,
+      "phone": "+92 300 1234567",
+      "address": "DHA Phase 5, Karachi",
+      "experience": "10+ years",
+      "investmentRange": "$50K - $500K",
+      "preferredStage": "Seed, Series A",
+      "createdAt": "2024-01-15T00:00:00Z",
+      "lastActive": "2024-12-20T15:30:00Z",
+      "online": true
+    },
+    {
+      "id": "ent-1",
+      "email": "entrepreneur@imeer.ai",
+      "password": "entrepreneur",
+      "role": "entrepreneur",
+      "name": "Noor Ahmed",
+      "avatar": "/placeholder.svg?height=40&width=40",
+      "title": "CEO & Founder",
+      "company": "InnovateTech Solutions",
+      "location": "Lahore, Pakistan",
+      "bio": "Serial entrepreneur with passion for creating innovative tech solutions. Founded 3 successful startups.",
+      "industry": "Technology",
+      "fundingNeeded": "$500K",
+      "stage": "Series A",
+      "verified": true,
+      "rating": 4.6,
+      "phone": "+92 301 9876543",
+      "address": "Gulberg III, Lahore",
+      "experience": "8+ years",
+      "previousExits": 2,
+      "teamSize": 15,
+      "createdAt": "2024-02-01T00:00:00Z",
+      "lastActive": "2024-12-20T14:45:00Z",
+      "online": true,
+      "startups": [
+        {
+          "id": "startup-1",
+          "name": "InnovateTech Solutions",
+          "description": "AI-powered business automation platform that helps companies streamline their operations and increase efficiency by 40%.",
+          "fundingGoal": "$500K",
+          "currentFunding": "$150K",
+          "stage": "Series A",
+          "industry": "Technology",
+          "foundedYear": 2023,
+          "employees": 15,
+          "revenue": "$50K/month",
+          "growth": "25% MoM",
+          "investors": ["Zain Shah"],
+          "pitchDeck": "/pitch-deck.pdf",
+          "businessPlan": "/business-plan.pdf",
+          "financials": "/financials.xlsx"
+        }
+      ]
+    },
+    {
+      "id": "inv-2",
+      "email": "areeba@imeer.ai",
+      "password": "investor",
+      "role": "investor",
+      "name": "Areeba Shakeel",
+      "avatar": "/placeholder.svg?height=40&width=40",
+      "title": "Head of Partnerships",
+      "company": "B.neXus",
+      "location": "Karachi, Pakistan",
+      "bio": "Partnership specialist connecting investors with promising startups. Expert in FinTech and E-commerce sectors.",
+      "investmentFields": ["FinTech", "E-commerce", "SaaS"],
+      "verified": true,
+      "rating": 4.9,
+      "phone": "+92 302 5555555",
+      "address": "Clifton, Karachi",
+      "experience": "7+ years",
+      "investmentRange": "$25K - $250K",
+      "preferredStage": "Pre-seed, Seed",
+      "createdAt": "2024-01-20T00:00:00Z",
+      "lastActive": "2024-12-20T16:00:00Z",
+      "online": true,
+      "totalInvestments": 18,
+      "successfulExits": 5,
+      "portfolioCompanies": ["PayTech", "ShopEasy", "CloudSoft"]
+    },
+    {
+      "id": "ent-2",
+      "email": "meer@imeer.ai",
+      "password": "entrepreneur",
+      "role": "entrepreneur",
+      "name": "Meer Abbas",
+      "avatar": "/placeholder.svg?height=40&width=40",
+      "title": "CTO & Co-Founder",
+      "company": "B.neXus",
+      "location": "Karachi, Pakistan",
+      "bio": "Tech entrepreneur and co-founder of B.neXus platform. Passionate about building scalable solutions.",
+      "industry": "Technology",
+      "verified": true,
+      "rating": 4.7,
+      "phone": "+92 303 7777777",
+      "address": "Gulshan-e-Iqbal, Karachi",
+      "experience": "12+ years",
+      "previousExits": 1,
+      "teamSize": 25,
+      "createdAt": "2024-01-10T00:00:00Z",
+      "lastActive": "2024-12-20T15:15:00Z",
+      "online": false,
+      "startups": [
+        {
+          "id": "startup-2",
+          "name": "B.neXus Platform",
+          "description": "Revolutionary networking platform connecting entrepreneurs with investors globally.",
+          "fundingGoal": "$1M",
+          "currentFunding": "$300K",
+          "stage": "Series A",
+          "industry": "Technology",
+          "foundedYear": 2024,
+          "employees": 25,
+          "revenue": "$100K/month",
+          "growth": "35% MoM",
+          "investors": ["Areeba Shakeel"],
+          "pitchDeck": "/nexus-pitch.pdf",
+          "businessPlan": "/nexus-plan.pdf"
+        }
+      ]
+    }
+  ],
+  "deals": [
+    {
+      "id": "deal-1",
+      "investorId": "inv-1",
+      "entrepreneurId": "ent-1",
+      "startupId": "startup-1",
+      "amount": "$100K",
+      "equity": "5%",
+      "status": "completed",
+      "date": "2024-12-15T00:00:00Z",
+      "platformFee": "$500",
+      "documents": ["term-sheet.pdf", "investment-agreement.pdf"]
+    },
+    {
+      "id": "deal-2",
+      "investorId": "inv-2",
+      "entrepreneurId": "ent-2",
+      "startupId": "startup-2",
+      "amount": "$50K",
+      "equity": "2%",
+      "status": "pending",
+      "date": "2024-12-18T00:00:00Z",
+      "platformFee": "$250"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "senderId": "inv-1",
+      "receiverId": "ent-1",
+      "message": "Hi Noor, I'm very interested in your InnovateTech Solutions. The AI automation platform looks promising. Would love to discuss the investment opportunity further.",
+      "timestamp": "2024-12-20T10:30:00Z",
+      "read": false,
+      "type": "text"
+    },
+    {
+      "id": "msg-2",
+      "senderId": "ent-1",
+      "receiverId": "inv-1",
+      "message": "Hello Zain! Thank you for your interest. I'd be happy to share more details about our platform and discuss how we can work together.",
+      "timestamp": "2024-12-20T11:00:00Z",
+      "read": false,
+      "type": "text"
+    },
+    {
+      "id": "msg-3",
+      "senderId": "inv-1",
+      "receiverId": "ent-1",
+      "message": "Great! Can you share your latest financial projections and user growth metrics?",
+      "timestamp": "2024-12-20T11:15:00Z",
+      "read": true,
+      "type": "text"
+    },
+    {
+      "id": "msg-4",
+      "senderId": "ent-1",
+      "receiverId": "inv-1",
+      "message": "We're currently at $50K MRR with 25% month-over-month growth. I'll send you our detailed financial model.",
+      "timestamp": "2024-12-20T11:30:00Z",
+      "read": true,
+      "type": "text"
+    },
+    {
+      "id": "msg-5",
+      "senderId": "inv-2",
+      "receiverId": "ent-2",
+      "message": "Meer, the B.neXus platform is impressive! I'd like to discuss a potential investment. Are you available for a call this week?",
+      "timestamp": "2024-12-20T14:00:00Z",
+      "read": false,
+      "type": "text"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "admin-1",
+      "type": "verification_request",
+      "title": "New Verification Request",
+      "message": "Zain Shah has requested profile verification",
+      "timestamp": "2024-12-20T09:00:00Z",
+      "read": false,
+      "actionRequired": true,
+      "relatedUserId": "inv-1"
+    },
+    {
+      "id": "notif-2",
+      "userId": "admin-1",
+      "type": "deal_completed",
+      "title": "Deal Completed",
+      "message": "$100K investment deal between Zain Shah and Noor Ahmed has been completed",
+      "timestamp": "2024-12-15T16:00:00Z",
+      "read": true,
+      "actionRequired": false,
+      "relatedDealId": "deal-1"
+    },
+    {
+      "id": "notif-3",
+      "userId": "admin-1",
+      "type": "report_submitted",
+      "title": "Report Submitted",
+      "message": "User reported inappropriate behavior - requires review",
+      "timestamp": "2024-12-19T12:00:00Z",
+      "read": false,
+      "actionRequired": true
+    },
+    {
+      "id": "notif-4",
+      "userId": "inv-1",
+      "type": "new_message",
+      "title": "New Message",
+      "message": "You have a new message from Noor Ahmed",
+      "timestamp": "2024-12-20T11:00:00Z",
+      "read": false,
+      "actionRequired": false,
+      "relatedUserId": "ent-1"
+    },
+    {
+      "id": "notif-5",
+      "userId": "ent-1",
+      "type": "profile_view",
+      "title": "Profile Viewed",
+      "message": "Zain Shah viewed your startup profile",
+      "timestamp": "2024-12-20T10:00:00Z",
+      "read": true,
+      "actionRequired": false,
+      "relatedUserId": "inv-1"
+    }
+  ],
+  "contactSubmissions": [
+    {
+      "id": "contact-1",
+      "firstName": "Zameer",
+      "lastName": "Abbas",
+      "email": "zameer@example.com",
+      "subject": "Partnership Inquiry",
+      "message": "I'm interested in exploring partnership opportunities with B.neXus. Please contact me to discuss further.",
+      "timestamp": "2024-12-20T08:00:00Z",
+      "status": "new"
+    }
+  ],
+  "platformStats": {
+    "totalUsers": 5,
+    "totalInvestors": 2,
+    "totalEntrepreneurs": 2,
+    "totalDeals": 2,
+    "completedDeals": 1,
+    "totalFunding": "$150K",
+    "platformRevenue": "$750",
+    "monthlyGrowth": "15%",
+    "successRate": "85%"
+  }
+}

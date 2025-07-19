@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@imeer.ai",
+      "password": "Admin123",
+      "role": "admin",
+      "name": "Admin",
+      "avatar": "/placeholder.svg?height=40&width=40"
+    },
+    {
+      "id": "2",
+      "email": "investor@imeer.ai",
+      "password": "investor",
+      "role": "investor",
+      "name": "Zain Shah",
+      "avatar": "/placeholder.svg?height=40&width=40",
+      "title": "Senior Investment Manager",
+      "company": "Tech Ventures Capital",
+      "location": "Karachi, Pakistan",
+      "bio": "Experienced investor with 10+ years in tech startups. Focus on early-stage companies with innovative solutions.",
+      "investmentFields": ["Technology", "FinTech", "E-commerce", "AI/ML"],
+      "portfolioCompanies": ["TechCorp", "InnovateLab", "StartupX"],
+      "totalInvestments": 25,
+      "successfulExits": 8,
+      "verified": true,
+      "rating": 4.8
+    },
+    {
+      "id": "3",
+      "email": "entrepreneur@imeer.ai",
+      "password": "entrepreneur",
+      "role": "entrepreneur",
+      "name": "Noor Ahmed",
+      "avatar": "/placeholder.svg?height=40&width=40",
+      "title": "CEO & Founder",
+      "company": "InnovateTech Solutions",
+      "location": "Lahore, Pakistan",
+      "bio": "Serial entrepreneur with passion for creating innovative tech solutions. Founded 3 successful startups.",
+      "industry": "Technology",
+      "fundingNeeded": "$500K",
+      "stage": "Series A",
+      "verified": true,
+      "rating": 4.6,
+      "startups": [
+        {
+          "id": "1",
+          "name": "InnovateTech Solutions",
+          "description": "AI-powered business automation platform",
+          "fundingGoal": "$500K",
+          "currentFunding": "$150K",
+          "stage": "Series A",
+          "industry": "Technology"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "email": "areeba@imeer.ai",
+      "password": "investor",
+      "role": "investor",
+      "name": "Areeba Shakeel",
+      "avatar": "/placeholder.svg?height=40&width=40",
+      "title": "Head of Partnerships",
+      "company": "B.neXus",
+      "location": "Karachi, Pakistan",
+      "bio": "Partnership specialist connecting investors with promising startups.",
+      "investmentFields": ["FinTech", "E-commerce", "SaaS"],
+      "verified": true,
+      "rating": 4.9
+    },
+    {
+      "id": "5",
+      "email": "meer@imeer.ai",
+      "password": "entrepreneur",
+      "role": "entrepreneur",
+      "name": "Meer Abbas",
+      "avatar": "/placeholder.svg?height=40&width=40",
+      "title": "CTO & Co-Founder",
+      "company": "B.neXus",
+      "location": "Karachi, Pakistan",
+      "bio": "Tech entrepreneur and co-founder of B.neXus platform.",
+      "industry": "Technology",
+      "verified": true,
+      "rating": 4.7
+    }
+  ],
+  "deals": [
+    {
+      "id": "1",
+      "investorId": "2",
+      "entrepreneurId": "3",
+      "amount": "$100K",
+      "status": "completed",
+      "date": "2024-12-15"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "senderId": "2",
+      "receiverId": "3",
+      "message": "Hi Noor, I'm interested in your InnovateTech Solutions. Would love to discuss further.",
+      "timestamp": "2024-12-20T10:30:00Z",
+      "read": false
+    },
+    {
+      "id": "2",
+      "senderId": "3",
+      "receiverId": "2",
+      "message": "Hello Zain! Thank you for your interest. I'd be happy to share more details about our platform.",
+      "timestamp": "2024-12-20T11:00:00Z",
+      "read": false
+    }
+  ]
+}
