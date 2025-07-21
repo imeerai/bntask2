@@ -293,7 +293,7 @@ export default function EntrepreneurDashboard() {
                       <div>
                         <CardTitle className="text-sm">My Startups</CardTitle>
                         <CardDescription className="text-xs">
-                          Manage your startup profiles and funding campaigns
+                          Manage your startups and funding campaign
                         </CardDescription>
                       </div>
                       <Button size="sm" className="btn-primary text-xs">
