@@ -184,7 +184,7 @@ export default function AdminDashboard() {
                       <div key={user.id} className="flex items-center justify-between p-3 bg-gray-800/30 rounded-lg">
                         <div className="flex items-center space-x-3">
                           <Avatar className="h-10 w-10">
-                            <AvatarImage src={user.avatar || "/placeholder.svg"} alt={user.name} />
+                            <AvatarImage src={user.avatar || "/entrepreneur.jpg"} alt={user.name} />
                             <AvatarFallback>{user.name.charAt(0)}</AvatarFallback>
                           </Avatar>
                           <div>
@@ -271,7 +271,7 @@ export default function AdminDashboard() {
                       <div key={user.id} className="flex items-center justify-between p-4 bg-gray-800/30 rounded-lg">
                         <div className="flex items-center space-x-4">
                           <Avatar className="h-12 w-12">
-                            <AvatarImage src={user.avatar || "/placeholder.svg"} alt={user.name} />
+                            <AvatarImage src={user.avatar || "/entrepreneur.jpg"} alt={user.name} />
                             <AvatarFallback>{user.name.charAt(0)}</AvatarFallback>
                           </Avatar>
                           <div>
@@ -331,12 +331,12 @@ export default function AdminDashboard() {
                           <div className="flex items-center gap-4">
                             <div className="flex -space-x-2">
                               <Avatar className="h-8 w-8 border-2 border-gray-800">
-                                <AvatarImage src={investor?.avatar || "/placeholder.svg"} alt={investor?.name} />
+                                <AvatarImage src={investor?.avatar || "/entrepreneur.jpg"} alt={investor?.name} />
                                 <AvatarFallback>{investor?.name.charAt(0)}</AvatarFallback>
                               </Avatar>
                               <Avatar className="h-8 w-8 border-2 border-gray-800">
                                 <AvatarImage
-                                  src={entrepreneur?.avatar || "/placeholder.svg"}
+                                  src={entrepreneur?.avatar || "/entrepreneur.jpg"}
                                   alt={entrepreneur?.name}
                                 />
                                 <AvatarFallback>{entrepreneur?.name.charAt(0)}</AvatarFallback>

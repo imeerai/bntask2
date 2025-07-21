@@ -170,7 +170,7 @@ export default function EntrepreneurDashboard() {
         <div className="p-4 border-t border-gray-800">
           <div className="flex items-center gap-3 mb-4">
             <Avatar className="h-10 w-10">
-              <AvatarImage src={user?.avatar || "/placeholder.svg"} alt={user?.name} />
+              <AvatarImage src={user?.avatar || "/entrepreneur.jpg"} alt={user?.name} />
               <AvatarFallback>{user?.name?.charAt(0)}</AvatarFallback>
             </Avatar>
             <div className="flex-1 min-w-0">
@@ -393,7 +393,7 @@ export default function EntrepreneurDashboard() {
                       <div className="flex items-start justify-between">
                         <div className="flex items-start space-x-4 flex-1">
                           <Avatar className="h-12 w-12">
-                            <AvatarImage src={investor.avatar || "/placeholder.svg"} alt={investor.name} />
+                            <AvatarImage src={investor.avatar || "/entrepreneur.jpg"} alt={investor.name} />
                             <AvatarFallback>{investor.name.charAt(0)}</AvatarFallback>
                           </Avatar>
                           <div className="flex-1">
@@ -490,7 +490,7 @@ export default function EntrepreneurDashboard() {
                 <CardContent className="space-y-6">
                   <div className="flex items-center gap-6">
                     <Avatar className="h-20 w-20">
-                      <AvatarImage src={user?.avatar || "/placeholder.svg"} alt={user?.name} />
+                      <AvatarImage src={user?.avatar || "/entrepreneur.jpg"} alt={user?.name} />
                       <AvatarFallback className="text-lg">{user?.name?.charAt(0)}</AvatarFallback>
                     </Avatar>
                     <div>

@@ -115,7 +115,7 @@ export default function AboutPage() {
                 <CardHeader>
                   <div className="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden">
                     <img
-                      src={member.image || "/placeholder.svg"}
+                      src={member.image || "/entrepreneur.jpg"}
                       alt={member.name}
                       className="w-full h-full object-cover"
                     />
