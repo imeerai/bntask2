@@ -85,7 +85,7 @@ export default function EntrepreneurDashboard() {
   return (
     <div className="min-h-screen bg-[#0a0a0a] flex">
       {/* Sidebar */}
-      <div className="w-64 bg-gray-950 border-r border-gray-800 flex flex-col">
+      <div className="w-70 bg-gray-950 border-r border-gray-800 flex flex-col">
         {/* Logo */}
         <div className="p-6 border-b border-gray-800">
           <div className="flex items-center space-x-3">
