@@ -41,7 +41,7 @@
       "password": "entrepreneur",
       "role": "entrepreneur",
       "name": "Noor Ahmed",
-      "avatar": "/placeholder.svg?height=40&width=40",
+      "avatar": "./public/entrepreneur.jpg",
       "title": "CEO & Founder",
       "company": "InnovateTech Solutions",
       "location": "Lahore, Pakistan",
